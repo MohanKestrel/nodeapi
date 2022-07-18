@@ -3,7 +3,7 @@ const bodyParser = require('body-parser')
 const mysql = require('mysql')
 
 const app = express()
-const port = process.env.PORT || 443
+const port = process.env.PORT || 8888
 
 app.use(bodyParser.urlencoded({ extended: false }))
 
