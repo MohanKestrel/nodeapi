@@ -3,7 +3,7 @@ const bodyParser = require('body-parser')
 const mysql = require('mysql')
 
 const app = express()
-const port = process.env.PORT || 80
+const port = process.env.PORT || 443
 
 app.use(bodyParser.urlencoded({ extended: false }))
 
@@ -132,5 +132,5 @@ app.put('', (req, res) => {
 
 
 
-// Listen on enviroment port or 5000
+// Listen on enviroment port or 443
 app.listen(port, () => console.log(`Listen on port ${port}`))
