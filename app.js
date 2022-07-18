@@ -12,10 +12,10 @@ app.use(bodyParser.json())
 // MySQL
 const pool = mysql.createPool({
     connectionLimit : 10,
-    host            : 'localhost',
-    user            : 'root',
-    password        : '',
-    database        : 'nodeapi'
+    host            : 'remotemysql.com',
+    user            : 'uHop4pLKeJ',
+    password        : 't6EawUiKPR',
+    database        : 'uHop4pLKeJ'
 })
 
 // Get all es
